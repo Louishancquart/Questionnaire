@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="handler" size="1299,340" id="quiz.handler" metadata="uml2-1.0" initialized="true" scrolledX="72" scrolledY="5" tag="1000" key="32303037303533312D31303030205175657374696F6E6E616972652F63616C65737365">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" name="CreateAnswerHandler" location="480,15" size="315,125" id="quiz.handler/CreateAnswerHandler" runTimeClassModel="postCreateCommand(Ljava.lang.String;),CreateAnswerHandler(Lquiz.handler.CreateAnswerHandler;),CreateAnswerHandler(),setNextHandler(Lquiz.handler.CreateAnswerHandler;),createCommand(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="292,75">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateAnswerHandler" id="quiz.handler/CreateAnswerHandler#CreateAnswerHandler()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CreateAnswerHandler" id="quiz.handler/CreateAnswerHandler#CreateAnswerHandler(Lquiz.handler.CreateAnswerHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCommand" id="quiz.handler/CreateAnswerHandler#createCommand(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="postCreateCommand" id="quiz.handler/CreateAnswerHandler#postCreateCommand(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNextHandler" id="quiz.handler/CreateAnswerHandler#setNextHandler(Lquiz.handler.CreateAnswerHandler;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CreateTextAnswerHandler" location="69,225" size="337,95" id="quiz.handler/CreateTextAnswerHandler" runTimeClassModel="iNSTANCE,CreateTextAnswerHandler(Lquiz.handler.CreateAnswerHandler;),createCommand(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="213,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="quiz.handler/CreateTextAnswerHandler#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="314,30">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateTextAnswerHandler" id="quiz.handler/CreateTextAnswerHandler#CreateTextAnswerHandler(Lquiz.handler.CreateAnswerHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCommand" id="quiz.handler/CreateTextAnswerHandler#createCommand(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="quiz.handler/CreateAnswerHandler&lt;-quiz.handler/CreateTextAnswerHandler" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="264,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CreateNumericalAnswerHandler" location="495,225" size="370,95" id="quiz.handler/CreateNumericalAnswerHandler" runTimeClassModel="createAnswerHandler(Ljava.lang.String;),iNSTANCE,CreateNumericalAnswerHandler(Lquiz.handler.CreateAnswerHandler;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="246,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="quiz.handler/CreateNumericalAnswerHandler#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="347,30">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateNumericalAnswerHandler" id="quiz.handler/CreateNumericalAnswerHandler#CreateNumericalAnswerHandler(Lquiz.handler.CreateAnswerHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAnswerHandler" id="quiz.handler/CreateNumericalAnswerHandler#createAnswerHandler(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="quiz.handler/CreateAnswerHandler&lt;-quiz.handler/CreateNumericalAnswerHandler" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CreateYesNoAnswerHandler" location="930,225" size="349,95" id="quiz.handler/CreateYesNoAnswerHandler" runTimeClassModel="iNSTANCE,CreateYesNoAnswerHandler(Lquiz.handler.CreateAnswerHandler;),createCommand(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,15">
+      <children xsi:type="editmodel:AttributeEditModel" name="iNSTANCE" id="quiz.handler/CreateYesNoAnswerHandler#iNSTANCE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="326,30">
+      <children xsi:type="editmodel:MethodEditModel" name="CreateYesNoAnswerHandler" id="quiz.handler/CreateYesNoAnswerHandler#CreateYesNoAnswerHandler(Lquiz.handler.CreateAnswerHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createCommand" id="quiz.handler/CreateYesNoAnswerHandler#createCommand(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="quiz.handler/CreateAnswerHandler&lt;-quiz.handler/CreateYesNoAnswerHandler" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="308,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
